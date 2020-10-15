@@ -1,4 +1,49 @@
 apiVersion: v1
 entries:
-  calico: []
-  calico-node: []
+  calico:
+  - apiVersion: v2
+    appVersion: v3.16.2
+    created: "2020-10-15T16:35:24.547734759Z"
+    description: BGP only calico helm chart for Kubernetes
+    digest: 73b750be3c75822d19ea4360d8025c79867ea1e642e40ee2c113cb80de7feaf2
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - calico-node
+    - bgp
+    - plugin
+    - cni
+    - node
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-0.1.0/calico-0.1.0.tgz
+    version: 0.1.0
+  calico-node:
+  - apiVersion: v2
+    appVersion: v3.16.2
+    created: "2020-10-15T16:35:24.669265103Z"
+    description: BGP only calico-node helm chart for Kubernetes
+    digest: bd53d0f7de6c50a36ba3839fe17fcc434a6e109f5cd24609899f211f105bc277
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - calico-node
+    - bgp
+    - plugin
+    - cni
+    - node
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico-node
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-node-0.1.0/calico-node-0.1.0.tgz
+    version: 0.1.0
+generated: "0001-01-01T00:00:00Z"
