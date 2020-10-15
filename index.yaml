@@ -164,6 +164,31 @@ entries:
     version: 0.1.0
   renovate-server:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2020-10-15T22:18:57.831813541Z"
+    description: Self-hosted renovate for your webhooks
+    digest: a9d0b2e9e07702249bd1532a8503f4b9eb91adad7405cc665fca320a8fa14d0d
+    home: https://github.com/arhat-dev/renovate-server
+    keywords:
+    - webhook
+    - renovate
+    - controller
+    - job
+    - cron
+    - github
+    - gitlab
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: renovate-server
+    sources:
+    - https://github.com/arhat-dev/renovate-server
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/renovate-server-0.1.1/renovate-server-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: latest
     created: "2020-10-15T22:04:39.594655847Z"
     description: Self-hosted renovate for your webhooks
