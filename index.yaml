@@ -162,4 +162,15 @@ entries:
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/calico-node-0.1.0/calico-node-0.1.0.tgz
     version: 0.1.0
+  renovate-server:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-10-15T22:04:39.594655847Z"
+    description: Self-hosted renovate for your webhooks
+    digest: 64d9e666ab7d52a19a7a8ca9d98d809ebc4f548ccc591534cb67e9c0b0a11b5a
+    name: renovate-server
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/renovate-server-0.1.0/renovate-server-0.1.0.tgz
+    version: 0.1.0
 generated: "0001-01-01T00:00:00Z"
