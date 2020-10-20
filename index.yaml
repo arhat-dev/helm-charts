@@ -26,6 +26,37 @@ entries:
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/abbot-0.1.0/abbot-0.1.0.tgz
     version: 0.1.0
+  aranya:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-10-20T16:25:05.963412265Z"
+    description: Controller for all kinds of devices
+    digest: e1b5e424878c9b16b0e03e8720c22e1b85724ce921d72a5a15c651374ab904cd
+    home: https://github.com/arhat-dev/aranya
+    keywords:
+    - abbot
+    - arhat
+    - aranya
+    - network
+    - controller
+    - wireguard
+    - mesh
+    - pod
+    - certificate
+    - edgedevice
+    - edge
+    - iot
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: aranya
+    sources:
+    - https://github.com/arhat-dev/aranya
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/aranya-0.1.0/aranya-0.1.0.tgz
+    version: 0.1.0
   calico:
   - apiVersion: v2
     appVersion: v3.16.3
