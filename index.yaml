@@ -59,6 +59,33 @@ entries:
     version: 0.1.0
   calico:
   - apiVersion: v2
+    appVersion: v3.16.5
+    created: "2020-11-07T11:55:51.297538755Z"
+    description: BGP only calico helm chart for Kubernetes
+    digest: 4f9743518ae06ee722c77d20c4204f3dbb8a044a8994ac55b5c8d0f43d01ef20
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - bgp
+    - controller
+    - typha
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    - https://github.com/projectcalico/kube-controllers
+    - https://github.com/projectcalico/typha
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-0.1.4/calico-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
     appVersion: v3.16.3
     created: "2020-10-15T18:57:13.065515739Z"
     description: BGP only calico helm chart for Kubernetes
@@ -135,6 +162,37 @@ entries:
     - https://github.com/arhat-dev/helm-charts/releases/download/calico-0.1.0/calico-0.1.0.tgz
     version: 0.1.0
   calico-node:
+  - apiVersion: v2
+    appVersion: v3.16.5
+    created: "2020-11-07T11:55:51.389430191Z"
+    description: BGP only calico-node helm chart for Kubernetes
+    digest: 2abe6512082c484da1ba8c408b9d04c05d6d6aba1430344d9c65850bd2508575
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - calico-node
+    - bgp
+    - plugin
+    - cni
+    - node
+    - felix
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico-node
+    sources:
+    - https://github.com/projectcalico/node
+    - https://github.com/projectcalico/felix
+    - https://github.com/projectcalico/cni-plugin
+    - https://github.com/projectcalico/pod2daemon
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-node-0.1.4/calico-node-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: v3.16.3
     created: "2020-10-15T18:57:13.181585664Z"
@@ -219,7 +277,61 @@ entries:
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/calico-node-0.1.0/calico-node-0.1.0.tgz
     version: 0.1.0
+  ksync:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-11-07T11:55:51.513619145Z"
+    description: Sync config from external sources to kubernetes with pod reloader
+    digest: 054a09a9eb91c002aaa91b4b2fe50a7d926f967336d6abd265f73652a42a3a94
+    home: https://github.com/arhat-dev/ksync
+    keywords:
+    - ksync
+    - kubernetes
+    - secret
+    - configmap
+    - mqtt
+    - http
+    - validation
+    - config
+    - sync
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: ksync
+    sources:
+    - https://github.com/arhat-dev/ksync
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/ksync-0.1.0/ksync-0.1.0.tgz
+    version: 0.1.0
   renovate-server:
+  - apiVersion: v2
+    appVersion: v0.1.4
+    created: "2020-11-07T11:55:51.622905444Z"
+    description: Self-hosted renovate for your webhooks
+    digest: ee28a82374a2187a4ae81ddc169c5be19f6c299729bb5555773cc0ea657a0595
+    home: https://github.com/arhat-dev/renovate-server
+    keywords:
+    - webhook
+    - renovate
+    - controller
+    - job
+    - cron
+    - github
+    - gitlab
+    - server
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: renovate-server
+    sources:
+    - https://github.com/arhat-dev/renovate-server
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/renovate-server-0.1.4/renovate-server-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: v0.1.3
     created: "2020-10-16T13:43:52.801017139Z"
@@ -305,5 +417,29 @@ entries:
     type: application
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/renovate-server-0.1.0/renovate-server-0.1.0.tgz
+    version: 0.1.0
+  vihara:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-11-07T11:55:51.741479478Z"
+    description: Maintenance controller for kubernetes
+    digest: ec354a8991c88ab93b1ce9a986eca9c6db4bae769ff63f0ee78abda37f0481a2
+    home: https://github.com/arhat-dev/vihara
+    keywords:
+    - vihara
+    - maintenance
+    - job
+    - node
+    - kubernetes
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: vihara
+    sources:
+    - https://github.com/arhat-dev/vihara
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/vihara-0.1.0/vihara-0.1.0.tgz
     version: 0.1.0
 generated: "0001-01-01T00:00:00Z"
