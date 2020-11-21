@@ -60,6 +60,33 @@ entries:
   arhat:
   - apiVersion: v2
     appVersion: latest
+    created: "2020-11-21T09:14:39.835387248Z"
+    description: deploy arhat to Kubernetes cluster for host management with RBAC
+    digest: 151771b7a65184f02260aba1f5f9b2862cda5b5794fc91eb0b8e9eb5f8c7cfc6
+    home: https://github.com/arhat-dev/arhat
+    keywords:
+    - arhat
+    - agent
+    - pod
+    - host
+    - kubectl
+    - exec
+    - attach
+    - port-forward
+    - node
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: arhat
+    sources:
+    - https://github.com/arhat-dev/arhat
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/arhat-0.0.2/arhat-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2020-11-20T01:14:54.878458059Z"
     description: deploy arhat to Kubernetes cluster for host management with RBAC
     digest: 97126c3ca0c43fa6320ed50b0e4a0687f62d3500b4b9d9bf99a5d4a8b4ac5f5d
