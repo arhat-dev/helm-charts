@@ -114,6 +114,33 @@ entries:
     version: 0.0.1
   calico:
   - apiVersion: v2
+    appVersion: v3.17.0
+    created: "2020-11-28T15:45:55.50205819Z"
+    description: BGP only calico control plane for Kubernetes
+    digest: 20240cd2d902d8aa078c606ddd4fba731c1eaa048ef3fdb42714b6f7d5dff56e
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - bgp
+    - controller
+    - typha
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    - https://github.com/projectcalico/kube-controllers
+    - https://github.com/projectcalico/typha
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-0.1.5/calico-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: v3.16.5
     created: "2020-11-07T11:55:51.297538755Z"
     description: BGP only calico helm chart for Kubernetes
@@ -217,6 +244,37 @@ entries:
     - https://github.com/arhat-dev/helm-charts/releases/download/calico-0.1.0/calico-0.1.0.tgz
     version: 0.1.0
   calico-node:
+  - apiVersion: v2
+    appVersion: v3.17.0
+    created: "2020-11-28T15:45:55.600671306Z"
+    description: BGP only calico-node for Kubernetes
+    digest: 2c0579b43fe53be1fe00f60522b07088eb9f30536d155e546f1f1f6368a3127b
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - calico-node
+    - bgp
+    - plugin
+    - cni
+    - node
+    - felix
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico-node
+    sources:
+    - https://github.com/projectcalico/node
+    - https://github.com/projectcalico/felix
+    - https://github.com/projectcalico/cni-plugin
+    - https://github.com/projectcalico/pod2daemon
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/calico-node-0.1.5/calico-node-0.1.5.tgz
+    version: 0.1.5
   - apiVersion: v2
     appVersion: v3.16.5
     created: "2020-11-07T11:55:51.389430191Z"
