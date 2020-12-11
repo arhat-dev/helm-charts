@@ -25,7 +25,7 @@ lint.yaml:
 	${RUN_LINTER} arhatdev/yamllint:latest yamllint -c .yaml-lint.yml .
 
 lint.chart:
-	${RUN_LINTER} quay.io/helmpack/chart-testing:v3.3.0 ct --config .chart-testing.yaml lint
+	${RUN_LINTER} quay.io/helmpack/chart-testing:v3.3.1 ct --config .chart-testing.yaml lint
 
 lint.all: \
 	lint.file \
