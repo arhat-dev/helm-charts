@@ -29,6 +29,36 @@ entries:
   aranya:
   - apiVersion: v2
     appVersion: latest
+    created: "2020-12-13T21:46:00.001478761Z"
+    description: Controller for all kinds of devices
+    digest: ad300f522c9e513c12ddb7ac255e533675e3d7913cd0f757d6bcc10cc156c5f5
+    home: https://github.com/arhat-dev/aranya
+    keywords:
+    - abbot
+    - arhat
+    - aranya
+    - network
+    - controller
+    - wireguard
+    - mesh
+    - pod
+    - certificate
+    - edgedevice
+    - edge
+    - iot
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: aranya
+    sources:
+    - https://github.com/arhat-dev/aranya
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/aranya-0.1.6/aranya-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: latest
     created: "2020-12-10T19:32:03.1248346Z"
     description: Controller for all kinds of devices
     digest: 02b67ce7dd22626a1b7f1d555b33ceff2ea172bd85ef48b6680f774e200d84e6
