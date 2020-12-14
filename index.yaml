@@ -716,6 +716,30 @@ entries:
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/ksync-0.1.0/ksync-0.1.0.tgz
     version: 0.1.0
+  opendj:
+  - apiVersion: v2
+    appVersion: 4.4.8
+    created: "2020-12-14T11:16:37.360918625Z"
+    description: OpenDJ is an LDAPv3 compliant directory service
+    digest: f2fbfa4fa3ea2004225d2b93fd1e07e1184a0ab253bb7c8056a4053dfedee11d
+    home: http://www.openidentityplatform.org
+    icon: https://raw.githubusercontent.com/OpenIdentityPlatform/OpenDJ/master/logo.png
+    keywords:
+    - kubernetes
+    - database
+    - opendj
+    - ldap
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: opendj
+    sources:
+    - https://github.com/OpenIdentityPlatform/OpenDJ
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/opendj-0.0.1/opendj-0.0.1.tgz
+    version: 0.0.1
   renovate-server:
   - apiVersion: v2
     appVersion: v0.1.4
