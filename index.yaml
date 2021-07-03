@@ -830,6 +830,28 @@ entries:
     urls:
     - https://github.com/arhat-dev/helm-charts/releases/download/opendj-0.0.1/opendj-0.0.1.tgz
     version: 0.0.1
+  proton-bridge:
+  - apiVersion: v2
+    appVersion: v1.8.7
+    created: "2021-07-03T12:01:24.386290135Z"
+    description: Helm chart for proton-bridge with automated login & serving process
+    digest: 6ec551ea11a010edb60cba81ab2b6ee02cea2e95fedca0aa8bd25e4b0e8ae9d6
+    home: https://protonmail.com/
+    icon: https://raw.githubusercontent.com/ProtonMail/proton-bridge/master/icon.iconset/icon_256x256%402x.png
+    keywords:
+    - proton-bridge
+    - protonmail
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: proton-bridge
+    sources:
+    - https://github.com/ProtonMail/proton-bridge
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/proton-bridge-0.1.1/proton-bridge-0.1.1.tgz
+    version: 0.1.1
   renovate-server:
   - apiVersion: v2
     appVersion: v0.1.4
