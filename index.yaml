@@ -1,2 +1,299 @@
 apiVersion: v1
-entries: []
+entries:
+  abbot:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-03T14:57:33.299128+02:00"
+    description: Network Manager Living at Edge
+    digest: 593fdd302246310498ea6d4aa2b30de3464ac867e6e6e76c9af19ecff1b36d2b
+    home: https://github.com/arhat-dev/abbot
+    keywords:
+    - abbot
+    - arhat
+    - aranya
+    - network
+    - userspaces
+    - wireguard
+    - cni
+    - mesh
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: abbot
+    sources:
+    - https://github.com/arhat-dev/abbot
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - abbot-0.1.0.tgz
+    version: 0.1.0
+  aranya:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-03T14:57:33.300686+02:00"
+    description: Controller for all kinds of devices
+    digest: 70941eb0b86ab983ce13417027ddee1d3a0eb404e07132f82cbb86018985fc09
+    home: https://github.com/arhat-dev/aranya
+    keywords:
+    - abbot
+    - arhat
+    - aranya
+    - network
+    - controller
+    - wireguard
+    - mesh
+    - pod
+    - certificate
+    - edgedevice
+    - edge
+    - iot
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: aranya
+    sources:
+    - https://github.com/arhat-dev/aranya
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - aranya-0.1.14.tgz
+    version: 0.1.14
+  arhat:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-03T14:57:33.301358+02:00"
+    description: deploy arhat to Kubernetes cluster for host management with RBAC
+    digest: 707e48296b0b9da1f92590d5bf351b78b712f254a0f3cd72feb44d6a9132db2e
+    home: https://github.com/arhat-dev/arhat
+    keywords:
+    - arhat
+    - agent
+    - pod
+    - host
+    - kubectl
+    - exec
+    - attach
+    - port-forward
+    - node
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: arhat
+    sources:
+    - https://github.com/arhat-dev/arhat
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - arhat-0.0.3.tgz
+    version: 0.0.3
+  calico:
+  - apiVersion: v2
+    appVersion: v3.19.1
+    created: "2021-07-03T14:57:33.302914+02:00"
+    description: BGP only calico control plane for Kubernetes
+    digest: 6e8447abe8115fc8132425cae705bd0b096db5e7e3463d9ea1642e263f59f58c
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - bgp
+    - controller
+    - typha
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    - https://github.com/projectcalico/kube-controllers
+    - https://github.com/projectcalico/typha
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - calico-0.1.7.tgz
+    version: 0.1.7
+  calico-node:
+  - apiVersion: v2
+    appVersion: v3.19.1
+    created: "2021-07-03T14:57:33.303576+02:00"
+    description: BGP only calico-node for Kubernetes
+    digest: ae9a61e36920fb0b48db0b02f526448d26ae3d67d7bae59ef5d16607ced4d137
+    home: https://www.projectcalico.org
+    icon: https://docs.projectcalico.org/images/felix_icon.png
+    keywords:
+    - kubernetes
+    - network
+    - calico
+    - calico-node
+    - bgp
+    - plugin
+    - cni
+    - node
+    - felix
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: calico-node
+    sources:
+    - https://github.com/projectcalico/node
+    - https://github.com/projectcalico/felix
+    - https://github.com/projectcalico/cni-plugin
+    - https://github.com/projectcalico/pod2daemon
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - calico-node-0.1.7.tgz
+    version: 0.1.7
+  eclipse-che:
+  - apiVersion: v2
+    appVersion: 7.32.2
+    created: "2021-07-03T14:57:33.304661+02:00"
+    description: Customizable helm chart for eclipse che
+    digest: 414820049fd7c82808b91f5fce498f3f09b48f70864089a61ad235f4345a4a6a
+    home: https://www.eclipse.org/che/
+    icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+    keywords:
+    - kubernetes
+    - eclipse
+    - devfile-registry
+    - plugin-registry
+    - che
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: eclipse-che
+    sources:
+    - https://github.com/eclipse-che/che-server
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - eclipse-che-0.1.1.tgz
+    version: 0.1.1
+  ksync:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-03T14:57:33.305113+02:00"
+    description: Sync config from external sources to kubernetes with pod reloader
+    digest: 1e9823ed1fad09f1fd42a4557e72ef8f28d7da06c5ef3c6aec09695b38528549
+    home: https://github.com/arhat-dev/ksync
+    keywords:
+    - ksync
+    - kubernetes
+    - secret
+    - configmap
+    - mqtt
+    - http
+    - validation
+    - config
+    - sync
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: ksync
+    sources:
+    - https://github.com/arhat-dev/ksync
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - ksync-0.1.0.tgz
+    version: 0.1.0
+  opendj:
+  - apiVersion: v2
+    appVersion: 4.4.11
+    created: "2021-07-03T14:57:33.305571+02:00"
+    description: OpenDJ is an LDAPv3 compliant directory service
+    digest: 3684dfc93ca45a69319ef6b5515179724e59804ddd90765b88331b37f24da1f1
+    home: http://www.openidentityplatform.org
+    icon: https://raw.githubusercontent.com/OpenIdentityPlatform/OpenDJ/master/logo.png
+    keywords:
+    - kubernetes
+    - database
+    - opendj
+    - ldap
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: opendj
+    sources:
+    - https://github.com/OpenIdentityPlatform/OpenDJ
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - opendj-0.0.2.tgz
+    version: 0.0.2
+  proton-bridge:
+  - apiVersion: v2
+    appVersion: v1.8.7
+    created: "2021-07-03T14:57:33.306066+02:00"
+    description: Helm chart for proton-bridge with automated login & serving process
+    digest: 6d52a26b901065598c050fd7252738ed007716d3277ab38a664d3ff89c9ac42b
+    home: https://protonmail.com/
+    icon: https://raw.githubusercontent.com/ProtonMail/proton-bridge/master/icon.iconset/icon_256x256%402x.png
+    keywords:
+    - proton-bridge
+    - protonmail
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: proton-bridge
+    sources:
+    - https://github.com/ProtonMail/proton-bridge
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - proton-bridge-0.1.1.tgz
+    version: 0.1.1
+  renovate-server:
+  - apiVersion: v2
+    appVersion: v0.1.4
+    created: "2021-07-03T14:57:33.307364+02:00"
+    description: Self-hosted renovate for your webhooks
+    digest: af4441e4a7b74af42e3307640c42cdccb33dd0af0713196dcbdfe2d9a89d958b
+    home: https://github.com/arhat-dev/renovate-server
+    keywords:
+    - webhook
+    - renovate
+    - controller
+    - job
+    - cron
+    - github
+    - gitlab
+    - server
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: renovate-server
+    sources:
+    - https://github.com/arhat-dev/renovate-server
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - renovate-server-0.1.5.tgz
+    version: 0.1.5
+  vihara:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-03T14:57:33.310822+02:00"
+    description: Maintenance controller for kubernetes
+    digest: a1dd4e2b32c9b394749833eebf65bb96363edec62e1eed72e9c550a31641bbef
+    home: https://github.com/arhat-dev/vihara
+    keywords:
+    - vihara
+    - maintenance
+    - job
+    - node
+    - kubernetes
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: vihara
+    sources:
+    - https://github.com/arhat-dev/vihara
+    - https://github.com/arhat-dev/helm-charts
+    type: application
+    urls:
+    - vihara-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-03T14:57:33.297637+02:00"
