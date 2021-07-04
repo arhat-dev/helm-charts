@@ -1,3 +1,5 @@
 /\.cr*
 
 /private
+/\.packages
+/\.dukkha*
