@@ -3,9 +3,9 @@ entries:
   abbot:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-07-20T19:23:19.643375849Z"
+    created: "2021-07-20T20:23:43.743372099Z"
     description: Network Manager Living at Edge
-    digest: 67004dc8866c34ade8698536f85efd687bcdd6bed1da023511331e04a1f78663
+    digest: be02772106dbf38f213a2dff55b47725c7e576938629c305e732f7b2935bf431
     home: https://github.com/arhat-dev/abbot
     keywords:
     - abbot
@@ -25,14 +25,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/abbot-0.1.0.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/abbot-0.1.0.tgz
     version: 0.1.0
   aranya:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-07-20T19:23:19.64712693Z"
+    created: "2021-07-20T20:23:43.745050951Z"
     description: Controller for all kinds of devices
-    digest: 7d74725b50b9df8d9a320db4fcf2bbef9b1e162755cdfbe029ed710d6516415c
+    digest: a6676d388ecec608043122d390cf77857101dce5678ee3f14ff1d0eea699d8fd
     home: https://github.com/arhat-dev/aranya
     keywords:
     - abbot
@@ -56,14 +56,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/aranya-0.1.14.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/aranya-0.1.14.tgz
     version: 0.1.14
   arhat:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-07-20T19:23:19.647961025Z"
+    created: "2021-07-20T20:23:43.745880377Z"
     description: deploy arhat to Kubernetes cluster for host management with RBAC
-    digest: 759f6fdcd4e27c952b25e4746afd775df6a227b1c30a374446d0186fe68d2d87
+    digest: fb4b5f5494f3529ce504504f658493fa3b6652159fe5c5f43adcffcfda49c128
     home: https://github.com/arhat-dev/arhat
     keywords:
     - arhat
@@ -84,14 +84,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/arhat-0.0.3.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/arhat-0.0.3.tgz
     version: 0.0.3
   calico:
   - apiVersion: v2
     appVersion: v3.19.1
-    created: "2021-07-20T19:23:19.650129814Z"
+    created: "2021-07-20T20:23:43.748049245Z"
     description: BGP only calico control plane for Kubernetes
-    digest: 6afd495c8d6430d082c822a04a2499a80213a5f7af1a9811e951087a6bdfa3e7
+    digest: 1572857cbe30f72714a6177e1376874b64668b34347ded4a85ecf3943fd5f7c3
     home: https://www.projectcalico.org
     icon: https://docs.projectcalico.org/images/felix_icon.png
     keywords:
@@ -112,14 +112,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/calico-0.1.7.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/calico-0.1.7.tgz
     version: 0.1.7
   calico-node:
   - apiVersion: v2
     appVersion: v3.19.1
-    created: "2021-07-20T19:23:19.650940309Z"
+    created: "2021-07-20T20:23:43.749452489Z"
     description: BGP only calico-node for Kubernetes
-    digest: 7aa388dcaf20f8ab5ed401b389062bfd87d02562efc227ba715d14cd416e0e61
+    digest: aea78188ba1c93be3b35a3d6c088bdbcbe54f0dc55f529c1204559a36dbd2a49
     home: https://www.projectcalico.org
     icon: https://docs.projectcalico.org/images/felix_icon.png
     keywords:
@@ -144,14 +144,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/calico-node-0.1.7.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/calico-node-0.1.7.tgz
     version: 0.1.7
   eclipse-che:
   - apiVersion: v2
     appVersion: 7.32.2
-    created: "2021-07-20T19:23:19.652493801Z"
+    created: "2021-07-20T20:23:43.751772962Z"
     description: Customizable helm chart for eclipse che
-    digest: fd7394dd17e3d7a09b2e58e1a0fec75fdfd4235d03e57aa29aeb87f8bbb0363b
+    digest: a0ec7ded19a165bd9e324526ce490f6663533070e647dfce5c6126fd0e510bb5
     home: https://www.eclipse.org/che/
     icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
     keywords:
@@ -169,14 +169,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/eclipse-che-0.1.1.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/eclipse-che-0.1.1.tgz
     version: 0.1.1
   ksync:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-07-20T19:23:19.653308397Z"
+    created: "2021-07-20T20:23:43.752605588Z"
     description: Sync config from external sources to kubernetes with pod reloader
-    digest: 41391441e404adc2aa318a1202ce9646714165ac3932540ad175cb7592545b64
+    digest: 9f17d645bb61fe0d7c4345c2708db858a4bfc4d918f4b210f20ed115e9f5afbb
     home: https://github.com/arhat-dev/ksync
     keywords:
     - ksync
@@ -197,14 +197,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/ksync-0.1.0.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/ksync-0.1.0.tgz
     version: 0.1.0
   opendj:
   - apiVersion: v2
     appVersion: 4.4.11
-    created: "2021-07-20T19:23:19.65451209Z"
+    created: "2021-07-20T20:23:43.753103604Z"
     description: OpenDJ is an LDAPv3 compliant directory service
-    digest: 38643ef06bf356f2914c1c7a3a538bbd6eb87a6af77512596de6c5967afb0f66
+    digest: 6f95941d3b8a878a8f6c0228219acd59baa756545845a0868dea026dab949d73
     home: http://www.openidentityplatform.org
     icon: https://raw.githubusercontent.com/OpenIdentityPlatform/OpenDJ/master/logo.png
     keywords:
@@ -221,14 +221,14 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/opendj-0.0.2.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/opendj-0.0.2.tgz
     version: 0.0.2
   proton-bridge:
   - apiVersion: v2
     appVersion: "1.8"
-    created: "2021-07-20T19:23:19.655339886Z"
+    created: "2021-07-20T20:23:43.753722523Z"
     description: Helm chart for proton-bridge with automated login & serving process
-    digest: 614d26244ac872372881fd9af714fef91d0d02576add8bf8f6c71abfe9bdd864
+    digest: 4f3914f8578fe5936ba16b0d2f70dfb03a737ab260e54c3f17e9c6b07db695b1
     home: https://protonmail.com/
     icon: https://raw.githubusercontent.com/ProtonMail/proton-bridge/master/icon.iconset/icon_256x256%402x.png
     keywords:
@@ -243,7 +243,7 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/proton-bridge-0.1.2.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/proton-bridge-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: v1.8.7
@@ -269,9 +269,9 @@ entries:
   renovate-server:
   - apiVersion: v2
     appVersion: v0.1.8
-    created: "2021-07-20T19:23:19.656080682Z"
+    created: "2021-07-20T20:23:43.754372243Z"
     description: Self-hosted renovate for your webhooks
-    digest: 5de4b3c686f2d3250b446ec8cfa598d5e8047054d87a5ddcd4775a299cb59495
+    digest: 0b8d2cd3f50f78f2afbc702d9c38d84c3d10b9e2fa81f717e2ea418f9d680eb7
     home: https://github.com/arhat-dev/renovate-server
     keywords:
     - webhook
@@ -290,7 +290,7 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/renovate-server-0.1.7.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/renovate-server-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
     appVersion: v0.1.6
@@ -347,6 +347,26 @@ entries:
   sonar-badge-proxy:
   - apiVersion: v2
     appVersion: d268c004
+    created: "2021-07-20T20:23:43.754878359Z"
+    description: Badge proxy for self-hosted sonarqube server
+    digest: 9586dbab8e79380a90eec34cf70faf4cbd15b016e8cf5e959fc569451bc82b2d
+    home: https://github.com/tynn/sonar-badge-proxy
+    keywords:
+    - reverse-proxy
+    - badge
+    - sonarqube
+    maintainers:
+    - email: dev@arhat.dev
+      name: arhat-dev
+    name: sonar-badge-proxy
+    sources:
+    - https://github.com/blink38/sonar-badge-proxy
+    type: application
+    urls:
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/sonar-badge-proxy-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: d268c004
     created: "2021-07-20T19:23:19.656639879Z"
     description: Badge proxy for self-hosted sonarqube server
     digest: b01d343abdc724766f9f0787950497eb4efed71342750861db2d4f20de59e660
@@ -388,9 +408,9 @@ entries:
   vihara:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-07-20T19:23:19.663435643Z"
+    created: "2021-07-20T20:23:43.760089222Z"
     description: Maintenance controller for kubernetes
-    digest: fa1bd415539f9864835ad89b258392b9454752f4a4147328a1f631a7f85662a0
+    digest: 34167eb93ec90052f6968b40f1e52fcc2877023acf7d28fc8c72cb7cd9256546
     home: https://github.com/arhat-dev/vihara
     keywords:
     - vihara
@@ -407,6 +427,6 @@ entries:
     - https://github.com/arhat-dev/helm-charts
     type: application
     urls:
-    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-071957c6/vihara-0.1.0.tgz
+    - https://github.com/arhat-dev/helm-charts/releases/download/chart-release-09ada263/vihara-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-20T19:23:19.642310155Z"
+generated: "2021-07-20T20:23:43.742587174Z"
